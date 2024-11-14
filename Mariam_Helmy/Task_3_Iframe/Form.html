@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body bgcolor="#FFF3FA" style="color: #e94581;">
+   <form action="#" enctype="multipart/form-data" autocomplete="off">
+  <fieldset>
+<legend>Personal Information :</legend>
+<label>Username :</label> &nbsp;
+<input type="text" pattern="{0-9}[2]{A-Z}[3]" placeholder="Enter Your Name" required>
+<br><br>
+<label>Password :</label> &nbsp;&nbsp;
+<input type="password" placeholder="Enter Your Password" required>
+<br><br>
+<label>Phone :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="tel" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+<br><br>
+<label>E-mail :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="email" placeholder="Enter Your E-mail">
+  </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Product Information :</legend>
+        <label>Price Range :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="range" value="100$" required>
+    <br><br>
+    <label>Date :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="datetime-local">
+    <br><br>
+    <label>Color :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="color">
+    <br><br>
+    <label>Image :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="image" src="imgs/photo_2024-11-13_21-36-54.jpg" width="200px"height="200px">
+    <br><br>
+    Male <input type="radio" name="r1" value="male">
+    Female <input type="radio" name="r1" value="female">
+    Children <input type="radio" name="r1" value="children">
+    <br><br>
+    luxury  <input type="checkbox" name="ch1[]" value="1"> 
+    casual <input type="checkbox" name="ch1[]" value="1"> 
+    Mist<input type="checkbox" name="ch1[]" value="1"> 
+    Gift<input type="checkbox" name="ch1[]" value="1"> 
+    <br><br>
+    <select multiple size="3">
+<option value=""disabled selected></option>
+<option value="1">luxury</option>
+<option value="2">casual</option>
+<option value="3">Mist</option>
+<option value="4">Gift</option>
+    </select>
+    <br><br>
+<label>Datalist of types : </label>
+<input  list="List" placeholder="Type to search...">
+<datalist id="List">
+    <option value="Laurent">
+    <option value="Olympéa">
+    <option value="Elie Saab">
+        <option value="J'adore">
+            <option value="Black Opium">
+            <option value="La Vie Est Belle">
+</datalist>
+    </fieldset>
+    <br><br>
+<textarea name="Opinion" cols="50" rows="10" style="resize: none;" placeholder="We will be happy to hear your opinion ❤ "></textarea>
+<br><br>
+  <center>  <input type="reset" value="Reset" style="color: #e94581;"> 
+    <br><br>
+    <input type="submit" value="Send 💌" style="color: #e94581;"> 
+  </center>
+
+   </form>
+</body>
+<footer>
+    &copy;Developed By Mariam Helmy@
+</footer>
+</html>
